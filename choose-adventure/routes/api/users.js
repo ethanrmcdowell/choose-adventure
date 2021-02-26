@@ -44,7 +44,7 @@ User.findOne({ username: req.body.username }).then(user => {
 
 // @route POST api/users/login
 // @desc Login user and return JWT token
-// @access Public
+// @access Private
 router.post("/login", (req, res) => {
     // Form validation
   const { errors, isValid } = validateLoginInput(req.body);
