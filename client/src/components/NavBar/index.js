@@ -51,10 +51,12 @@ const NavBar = (props) => {
    
   return (
     <nav className="navbar navbar-default navbar-dark bg-dark">
-      <ul className="nav navbar-nav navbar-expand-lg ml-auto">
+      <ul className="nav navbar-nav navbar-expand-lg">
         <li>
           <Logo />
         </li>
+        </ul>
+        <ul className="nav navbar-nav navbar-expand-lg ml-auto">
         <li className="nav-item pad nav-style">
           <Link to="/">HOME</Link>
         </li>
