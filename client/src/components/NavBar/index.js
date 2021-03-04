@@ -49,7 +49,6 @@ const NavBar = (props) => {
 
 
    
-
   return (
     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
       <ul className="nav navbar-nav navbar-expand-lg">
@@ -67,5 +66,6 @@ const NavBar = (props) => {
     </nav>
   );
 };
+
 
 export default NavBar;
