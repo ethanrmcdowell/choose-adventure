@@ -50,8 +50,8 @@ const NavBar = (props) => {
 
    
   return (
-    <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
-      <ul className="nav navbar-nav navbar-expand-lg">
+    <nav className="navbar navbar-default navbar-dark bg-dark">
+      <ul className="nav navbar-nav navbar-expand-lg ml-auto">
         <li>
           <Logo />
         </li>
@@ -59,9 +59,11 @@ const NavBar = (props) => {
           <Link to="/">HOME</Link>
         </li>
         {!isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
-        <li> 
-          <SoundButton />
-        </li>
+        </ul>
+        <ul className="navbar-nav ml-auto">
+          <li> 
+            <SoundButton />
+          </li>
       </ul>
     </nav>
   );
