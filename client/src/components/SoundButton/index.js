@@ -5,7 +5,7 @@ import { Howl, Howler } from "howler";
 
 function SoundButton() {
   const [playing, setPlaying] = React.useState(false);
-  const [buttonText, setButtonText] = React.useState("Play!");
+  const [buttonText, setButtonText] = React.useState("PLAY!");
 
   var sound = new Howl({
     src: [Audio],
