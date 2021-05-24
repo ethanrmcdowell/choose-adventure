@@ -8,7 +8,7 @@ A slasher-inspired choose your own adventure game with just a touch of murder my
 
 ## TABLE OF CONTENTS
 
--[Description](#Description) <br>
+-[Demo](#Demo) <br>
 
 -[Contributions](#Contributions) <br>
 
